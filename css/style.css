@@ -1,0 +1,16 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.image {
+    width: 100%;
+    height: fit-content;
+    background-color: salmon;
+}
+
+button {
+    height: 40px;
+    width: 150px;
+    background-color: salmon;
+    border-radius: 10px;
+}

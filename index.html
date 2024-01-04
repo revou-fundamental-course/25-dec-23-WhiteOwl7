@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Segitiga</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <center><h1 style="color: salmon;">Kalkulator Segitiga</h1></center>
+
+    <div class="image">
+        <center><img src="assets/segitiga.png"></center>
+    </div>
+
+    <br>
+    <div class="container">
+        <center><label for="alas">Masukkan panjang alas:</label></center>
+        <center><input type="number" id="alas" placeholder="Panjang Alas"></center>
+
+        <br>
+        <center><label for="tinggi">Masukkan tinggi:</label></center>
+        <center><input type="number" id="tinggi" placeholder="Tinggi"></center>
+
+        <br>
+        <center><button onclick="hitungLuas()">Hitung Luas</button></center>
+        <center><button onclick="hitungKeliling()">Hitung Keliling</button></center>
+
+        <br>
+        <center><p id="hasilLuas">Luas: </p></center>
+        <center><p id="hasilKeliling">Keliling: </p></center>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
