@@ -1,84 +1,65 @@
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f4f4f4;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #d5d5d5;
+}
+
+h1 {
+    color: aliceblue;
+    background-color: salmon;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 10px;
 }
 
 .container {
-    text-align: center;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.76);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-input {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-}
-
-button {
-    background-color: #4caf50;
-    color: #fff;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    border-radius: 4px;
-}
-
-button:hover {
-    background-color: #45a049;
-}
-
-p {
-    font-size: 18px;
-    font-weight: bold;
-}
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
+.input {
+    display: grid;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f4f4f4;
-}
-
-.container {
     text-align: center;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-input {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
+.input label {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.input input {
+    height: 20px;
+    width: 200px;
+}
+
+.button {
+    display: grid;
+    justify-content: center;
+    text-align: center;
 }
 
 button {
-    background-color: #4caf50;
-    color: #fff;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    padding: 5px;
+    color: aliceblue;
+    background-color: salmon;
     border: none;
-    padding: 10px;
     cursor: pointer;
-    border-radius: 4px;
+    transition: all ease 0.2s;
 }
 
 button:hover {
-    background-color: #45a049;
-}
-
-p {
-    font-size: 18px;
-    font-weight: bold;
+    scale: 1.1;
 }

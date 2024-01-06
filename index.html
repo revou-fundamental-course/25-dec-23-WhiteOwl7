@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kalkulator Segitiga</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    
-    <div class="container">
-        <h1>Kalkulator Segitiga</h1>
-        <label for="alas">Masukkan panjang alas:</label>
-        <input type="number" id="alas" placeholder="Panjang Alas">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kalkulator Segitiga</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
 
-        <label for="tinggi">Masukkan tinggi:</label>
-        <input type="number" id="tinggi" placeholder="Tinggi">
+        <center><h1>Kalkulator Segitiga</h1></center>
+        <center><img src="assets/segitiga.png" alt=""></center>
+        
+        <div class="container">
+            <div class="input">
+                <label for="alas">Masukkan alas:</label>
+                <input type="number" id="alas" placeholder="Panjang Alas">
 
-        <button onclick="hitungLuas()">Hitung Luas</button>
-        <button onclick="hitungKeliling()">Hitung Keliling</button>
+                <label for="tinggi">Masukkan tinggi:</label>
+                <input type="number" id="tinggi" placeholder="Tinggi">
+            </div>
 
-        <p id="hasilLuas">Luas: </p>
-        <p id="hasilKeliling">Keliling: </p>
-    </div>
+            <br>
 
-    <script src="js/script.js"></script>
-</body>
+            <div class="button">
+                <button onclick="hitungLuas()">Hitung Luas</button>
+                <br>
+                <button onclick="hitungKeliling()">Hitung Keliling</button>
+            </div>
+
+            <center><p id="hasilLuas">Luas: </p></center>
+            <center><p id="hasilKeliling">Keliling: </p></center>
+        </div>
+
+        <script src="js/script.js"></script>
+
+    </body>
 </html>
