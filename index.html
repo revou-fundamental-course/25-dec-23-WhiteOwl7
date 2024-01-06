@@ -7,28 +7,20 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <center><h1 style="color: salmon;">Kalkulator Segitiga</h1></center>
-
-    <div class="image">
-        <center><img src="assets/segitiga.png"></center>
-    </div>
-
-    <br>
+    
     <div class="container">
-        <center><label for="alas">Masukkan panjang alas:</label></center>
-        <center><input type="number" id="alas" placeholder="Panjang Alas"></center>
+        <h1>Kalkulator Segitiga</h1>
+        <label for="alas">Masukkan panjang alas:</label>
+        <input type="number" id="alas" placeholder="Panjang Alas">
 
-        <br>
-        <center><label for="tinggi">Masukkan tinggi:</label></center>
-        <center><input type="number" id="tinggi" placeholder="Tinggi"></center>
+        <label for="tinggi">Masukkan tinggi:</label>
+        <input type="number" id="tinggi" placeholder="Tinggi">
 
-        <br>
-        <center><button onclick="hitungLuas()">Hitung Luas</button></center>
-        <center><button onclick="hitungKeliling()">Hitung Keliling</button></center>
+        <button onclick="hitungLuas()">Hitung Luas</button>
+        <button onclick="hitungKeliling()">Hitung Keliling</button>
 
-        <br>
-        <center><p id="hasilLuas">Luas: </p></center>
-        <center><p id="hasilKeliling">Keliling: </p></center>
+        <p id="hasilLuas">Luas: </p>
+        <p id="hasilKeliling">Keliling: </p>
     </div>
 
     <script src="js/script.js"></script>
